@@ -1,0 +1,162 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/main_layout"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+
+    android:background="#f9a825"
+
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+
+        android:id="@+id/title_text"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+
+        android:fontFamily="sans-serif-smallcaps"
+
+        android:text="@string/app_name"
+
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+
+        android:id="@+id/phone_auth_fields"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+
+        android:paddingLeft="16dp"
+
+        android:paddingRight="16dp">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+
+            <EditText
+
+                android:id="@+id/field_phone_number"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:hint="@string/hint_phone_number"
+
+                android:inputType="phone"
+                android:textColor="#dcdcdc"
+                android:textColorHint="#c8ef6c00" />
+
+
+            <EditText
+
+                android:id="@+id/field_verification_code"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:hint="@string/hint_verification_code"
+
+                android:inputType="number"
+                android:textColor="#dcdcdc"
+                android:textColorHint="#c8ef6c00" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+
+            android:weightSum="3.0">
+
+
+            <Button
+
+                android:id="@+id/button_start_verification"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_margin="2dp"
+
+                android:layout_weight="1.0"
+                android:background="#c8ef6c00"
+                android:text="Get OTP"
+                android:textColor="#fefefe" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:orientation="horizontal">
+
+                <Button
+
+                    android:id="@+id/button_resend"
+
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="2dp"
+
+                    android:layout_weight="1"
+                    android:background="#c8ef6c00"
+                    android:text="@string/resend_phone_auth"
+                    android:textColor="#fefefe" />
+
+                <Button
+
+                    android:id="@+id/button_verify_phone"
+
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="2dp"
+
+                    android:layout_weight="1"
+                    android:background="#c8ef6c00"
+                    android:text="@string/verify_phone_auth"
+                    android:textColor="#fefefe" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

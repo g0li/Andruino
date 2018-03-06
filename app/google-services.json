@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "901701266483",
+    "firebase_url": "https://andruino-7c579.firebaseio.com",
+    "project_id": "andruino-7c579",
+    "storage_bucket": "andruino-7c579.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901701266483:android:c7846f3fee0f1553",
+        "android_client_info": {
+          "package_name": "com.forev.andruino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901701266483-40bov8haesu6cub8tt8ai9vovn30sg7g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.forev.andruino",
+            "certificate_hash": "3e036b8b6470fdd14ec9da0777855ccb274bb27a"
+          }
+        },
+        {
+          "client_id": "901701266483-ceisq4r78r3819o12eth7knjspivpk3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkZpQm1k6aGQUSkiTZZTMcve00xbB5uTY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901701266483-ceisq4r78r3819o12eth7knjspivpk3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
